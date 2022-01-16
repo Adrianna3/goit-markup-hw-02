@@ -2,11 +2,12 @@
     --font-family: 'Roboto', sans-serif;
     --secondary-font:'Raleway', sans-serif;
     --main-color: #2196F3;
+    --family-color: #212121;
 }
 
 body{
    font-family: var(--font-family); 
-   color: #212121;
+   color: var(--family-color);
 }
 
 /*================COMPONENTS================ */
@@ -33,7 +34,7 @@ body{
     line-height: 1.666;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    /* color: #212121; */
 }
 
 /*================END COMPONENTS================ */
@@ -41,25 +42,28 @@ body{
 
 /*================HEADER================ */
 
-.navigation-logo {
-    font-family: var(--secondary-font);
+.navigation-logo {   
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.192px;    
+    line-height: 1.192;    
     /* identical to box height */
-    letter-spacing: 0.03em;    
-    color: #2196F3;
+    letter-spacing: 0.03em; 
+    color:#212121; 
+    
+    
+}
+.navigation-logo-color{
+    color: var(--main-color);
 }
 
 .navigation-list-link,
-.address{  
-    /* font-family: Roboto;    */
+.address{    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
-    letter-spacing: 0.02em;
-    /* color: #2196F3; */
+    letter-spacing: 0.02em;  
+    color:#212121 
 }
 
 
@@ -78,14 +82,16 @@ body{
 }
 
 .address{
-    /* font-family: Roboto; */
-    font-style: normal;   
+    
+    font-style: normal;  
+    
+    
 }
 /*================END HEADER================ */
 
 /*================BUTTON================ */
 .main-header{
-/* font-family: Roboto; */
+
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -101,19 +107,17 @@ text-transform: uppercase;
 /*================END BUTTON================ */
 
 /*================NASZE ATUTY================ */
-.navigation-advantages-h4{
-    /* font-family: Roboto; */
+.navigation-advantages-h4{    
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1.43px;
+    line-height: 1.43;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
 
 }
-.navigation-advantages-p{
-    /* font-family: Roboto; */
+.navigation-advantages-p{    
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -132,6 +136,7 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
+
 }
 
 .staff_p{   
@@ -152,7 +157,7 @@ text-transform: uppercase;
     line-height: 1.714;
     /* or 171% */
     letter-spacing: 0.03em;
-   
+      
 }
 /* .footer-address{
     color: #FFFFFF;

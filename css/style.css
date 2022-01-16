@@ -22,6 +22,7 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
     color: #FFFFFF;
 }
@@ -42,7 +43,8 @@ body{
 
 /*================HEADER================ */
 
-.navigation-logo {   
+.navigation-logo {  
+    font-family: var(--secondary-font); 
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
@@ -77,16 +79,19 @@ body{
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-phone-number:hover,
-.footer-phone-number:focus {
+.footer-phone-number:focus{
     color:var(--main-color);
 }
 
 .address{
-    
-    font-style: normal;  
-    
-    
+    font-style: normal;      
 }
+.address-mail,
+.address-phone-number{
+    color: #757575;
+}
+
+
 /*================END HEADER================ */
 
 /*================BUTTON================ */
@@ -145,7 +150,7 @@ text-transform: uppercase;
     font-size: 16px;
     line-height: 1.187;
 
-    color: #757575;
+    color: rgba(117, 117, 117, 0.63);
 }
 /*================END STAFF================ */
 
@@ -168,3 +173,30 @@ color: rgba(255, 255, 255, 0.6);
 } */
 
 /*================END FOOTER================ */
+
+/*================PORTFOLIO================ */
+.navigation-list-link-portfolio{
+    color: var(--main-color);
+}
+
+.third-header-project{    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+.staff_p-project{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+
+color: #757575;
+}

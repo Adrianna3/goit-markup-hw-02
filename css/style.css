@@ -1,0 +1,164 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --main-color: #2196F3;
+}
+
+body{
+   font-family: var(--font-family); 
+}
+
+/*================COMPONENTS================ */
+.model-btn{
+    /* font-family: Roboto;     */
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+
+    /* identical to box height, or 187% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.secondary-header{
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.666;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*================END COMPONENTS================ */
+
+
+/*================HEADER================ */
+
+.navigation-logo {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192px;    
+    /* identical to box height */
+    letter-spacing: 0.03em;    
+    color: #2196F3;
+}
+
+.navigation-list-link,
+.address{  
+    /* font-family: Roboto;    */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    /* color: #2196F3; */
+}
+
+
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-phone-number:hover,
+.address-phone-number:focus{
+    color:var(--main-color);
+}
+
+.address{
+    /* font-family: Roboto; */
+    font-style: normal;   
+}
+/*================END HEADER================ */
+
+/*================BUTTON================ */
+.main-header{
+/* font-family: Roboto; */
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+/* color: #FFFFFF; */
+}
+/*================END BUTTON================ */
+
+/*================NASZE ATUTY================ */
+.navigation-advantages-h4{
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.43px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+.navigation-advantages-p{
+    /* font-family: Roboto; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*================END NASZE ATUTY================ */
+
+/*================STAFF================ */
+
+.third-header{   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    color: #212121;
+}
+
+.staff_p{   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+
+    color: #757575;
+}
+/*================END STAFF================ */
+
+/*================FOOTER================ */
+.footer-address{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    /* color: #FFFFFF; */
+}
+
+.footet-mail,
+.footet-mail{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+/*================END FOOTER================ */

@@ -6,6 +6,7 @@
 
 body{
    font-family: var(--font-family); 
+   color: #212121;
 }
 
 /*================COMPONENTS================ */
@@ -68,7 +69,11 @@ body{
 .address-mail:hover,
 .address-mail:focus,
 .address-phone-number:hover,
-.address-phone-number:focus{
+.address-phone-number:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone-number:hover,
+.footer-phone-number:focus {
     color:var(--main-color);
 }
 
@@ -104,7 +109,7 @@ text-transform: uppercase;
     line-height: 1.43px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
+    
 
 }
 .navigation-advantages-p{
@@ -127,7 +132,6 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
-    color: #212121;
 }
 
 .staff_p{   
@@ -141,24 +145,21 @@ text-transform: uppercase;
 /*================END STAFF================ */
 
 /*================FOOTER================ */
-.footer-address{    
+.footer_list{    
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     /* or 171% */
     letter-spacing: 0.03em;
-    /* color: #FFFFFF; */
+   
 }
+/* .footer-address{
+    color: #FFFFFF;
+} */
+/* .footer-mail,
+.footer-phone-number{
+color: rgba(255, 255, 255, 0.6);
+} */
 
-.footet-mail,
-.footet-mail{    
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-    letter-spacing: 0.03em;
-    /* color: rgba(255, 255, 255, 0.6); */
-}
 /*================END FOOTER================ */

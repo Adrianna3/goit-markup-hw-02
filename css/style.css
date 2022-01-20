@@ -10,6 +10,10 @@ body{
    color: var(--family-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 /*================COMPONENTS================ */
 .model-btn{
     /* font-family: Roboto;     */
@@ -25,6 +29,17 @@ body{
     cursor: pointer;
 
     color: #FFFFFF;
+    position: flex;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+
 }
 
 .secondary-header{
@@ -43,18 +58,20 @@ body{
 
 /*================HEADER================ */
 
-.navigation-logo {  
-    font-family: var(--secondary-font); 
+.navigation-logo,
+.navigation-logo-footer {     
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.192;    
     /* identical to box height */
     letter-spacing: 0.03em; 
-    color:#212121; 
-    
     
 }
+.navigation-logo{
+  color: var(--family-color);    
+}
+
 .navigation-logo-color{
     color: var(--main-color);
 }
@@ -67,7 +84,6 @@ body{
     letter-spacing: 0.02em;  
     color:#212121 
 }
-
 
 
 .navigation-list-link:hover,
@@ -106,8 +122,19 @@ line-height: 1.364;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+color: #FFFFFF;
+}
 
-/* color: #FFFFFF; */
+.button{
+
+  height: 37.5rem;
+  display: flex;
+  align-items: center;
+  background: #2F303A;
+}
+
+
+
 }
 /*================END BUTTON================ */
 
@@ -130,6 +157,7 @@ text-transform: uppercase;
     /* or 171% */
     letter-spacing: 0.03em;
     color: #757575;
+    
 }
 
 /*================END NASZE ATUTY================ */
@@ -143,6 +171,11 @@ text-transform: uppercase;
     line-height: 1.187;
 
 }
+.staff{
+   background: #F5F4FA;
+}
+    
+
 
 .staff_p{   
     font-style: normal;
@@ -151,10 +184,14 @@ text-transform: uppercase;
     line-height: 1.187;
 
     color: rgba(117, 117, 117, 0.63);
+    
 }
 /*================END STAFF================ */
 
 /*================FOOTER================ */
+.footer{
+    background: #2F303A;
+}
 .footer_list{    
     font-style: normal;
     font-weight: normal;
@@ -166,7 +203,7 @@ text-transform: uppercase;
 }
 .footer-address{
     color: #FFFFFF;
-} */
+} 
  .footer-mail,
 .footer-phone-number{
 color: rgba(255, 255, 255, 0.6);
@@ -175,9 +212,10 @@ color: rgba(255, 255, 255, 0.6);
 /*================END FOOTER================ */
 
 /*================PORTFOLIO================ */
-.navigation-list-link-portfolio{
-    color: var(--main-color);
+.navigation-logo-footer{
+  color: #FFFFFF;  
 }
+
 
 .third-header-project{    
     font-style: normal;
